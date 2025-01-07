@@ -33,3 +33,15 @@
 # print(mylist)
 # mylist.clear()
 # print(mylist)
+
+#for loop within list >>>>>
+# wishList = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+# for x in range(len(wishList)):
+#     print(wishList[x])
+#     print(x)
+#
+# i = 0
+# while i < len(wishList):
+#     print(wishList[i])
+#     i+=1
+
