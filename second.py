@@ -35,7 +35,7 @@
 # print(mylist)
 
 #for loop within list >>>>>
-# wishList = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+wishList = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
 # for x in range(len(wishList)):
 #     print(wishList[x])
 #     print(x)
@@ -45,3 +45,16 @@
 #     print(wishList[i])
 #     i+=1
 
+#newList = []
+# for x in wishList:
+#     if 'i' in x:
+#         newList.append(x)
+#
+# print(newList)
+
+#Comprehension >>>>>>
+# newList = [x for x in wishList if x!="apple"]
+# print(newList)
+#
+# newList2 = [x for x in wishList if 'a' not in x]
+# print(newList2)
