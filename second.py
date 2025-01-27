@@ -56,5 +56,13 @@ wishList = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
 # newList = [x for x in wishList if x!="apple"]
 # print(newList)
 #
-# newList2 = [x for x in wishList if 'a' not in x]
-# print(newList2)
+newList2 = [x for x in wishList if 'a' not in x]
+print(newList2)
+newList4 = [x if x!="banana" else "orange" for x in wishList]
+print(newList4)
+wishList.sort(reverse=True)
+print(wishList)
+
+# newList3 = ["Pumpkin" for x in wishList]
+# print(newList3)
+
